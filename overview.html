@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="CSS/overview.css">
+        <title>Range Rover Lineup</title>
+        <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      color: #000;
+    }
+
+    header {
+      background: #fff;
+      border-bottom: 1px solid #ccc;
+      display: flex;
+      justify-content: space-around;
+      padding: 16px;
+      font-size: 14px;
+    }
+
+    header a {
+      text-decoration: none;
+      color: #000;
+      font-weight: bold;
+      margin: 0 10px;
+    }
+
+    .container {
+      display: flex;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .aside {
+      width: 25%;
+      border-right: 1px solid #ddd;
+      padding-right: 20px;
+    }
+    .sn{
+        position: relative;
+        left: 5px;
+    }
+
+    aside .model {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+      border: 1px solid black;
+      margin-left: 10px;
+    }
+
+    aside .model img {
+      width: 80px;
+      height: auto;
+      margin-right: 12px;
+    }
+
+    .model p {
+      font-size: 14px;
+      line-height: 1.4;
+    }
+
+    main {
+      width: 65%;
+      padding-left: 30px;
+    }
+
+    main img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 24px;
+      margin-bottom: 8px;
+    }
+
+    .price {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    .actions a {
+      display: inline-block;
+      text-decoration: none;
+      background: #000;
+      color: #fff;
+      padding: 10px 20px;
+      margin-right: 10px;
+      border-radius: 4px;
+      font-size: 14px;
+    }
+  </style>
+    </head>
+    <body>
+        <header>
+            <aside class="aside">
+                <a href="#">VEHICLES</a>
+            <a href="#">OWNERS</a>
+            <a href="#">EXPLORE</a>
+            </aside>
+            <a class="sn" href="#">SHOP NOW</a>
+            <div>Range Rover</div>
+            <a href="#">RETAILERS</a>
+            <a href="#">BUILD</a>
+        </header>
+
+        <div class="container">
+            <aside>
+                <div class="model">
+                    <img src="range-rover.jpg" alt="Range Rover" />
+                    <p>Range Rover<br />Price from: ₹24,000,000*</p>
+                </div>
+                <div class="model">
+                    <img src="sv.jpg" alt="Range Rover SV" />
+                    <p>Range Rover SV<br />Price from: ₹39,340,000*</p>
+                </div>
+                <div class="model">
+                    <img src="sport.jpg" alt="Range Rover Sport" />
+                    <p>Range Rover Sport<br />Price from: ₹14,500,000*</p>
+                </div>
+                <div class="model">
+                    <img src="sport-sv.jpg" alt="Range Rover Sport SV" />
+                    <p>Range Rover Sport SV<br />Price from: ₹29,500,000*</p>
+                </div>
+                <div class="model">
+                    <img src="velar.jpg" alt="Range Rover Velar" />
+                    <p>Range Rover Velar<br />Price from: ₹8,790,000*</p>
+                </div>
+                <div class="model">
+                    <img src="evoque.jpg" alt="Range Rover Evoque" />
+                    <p>Range Rover Evoque<br />Price from: ₹7,890,000*</p>
+                </div>
+            </aside>
+
+            <main>
+                <img src="highlight.jpg" alt="Featured Range Rover" />
+                <h1>Range Rover</h1>
+                <p class="price">Price from: ₹24,000,000*</p>
+                <div class="actions">
+                    <a href="#">Explore</a>
+                    <a href="#">Build Your Own</a>
+                </div>
+            </main>
+        </div>
+    </body>
+</html>

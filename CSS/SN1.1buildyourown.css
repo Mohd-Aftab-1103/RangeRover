@@ -1,0 +1,526 @@
+body {
+            margin: 0;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        .navbar {
+            position: fixed;
+            display: flex;
+            top: -1px;
+            justify-content: space-between;
+            align-items: center;
+            padding: 16px 26px;
+            background-color: whitesmoke;
+            border-bottom: 1px solid lightgray;
+            max-height: 800px;
+            z-index: 100;
+            width: 96%;
+            margin: 0px;
+        }
+        .menu, .right-menu {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+        .menu a, .right-menu a {
+            text-decoration: none;
+            color: #000;
+        }
+        .logo {
+            font-size: 22px;
+            font-weight: bold;
+        }
+        .dropdown {
+            position: relative;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background: #f9f9f9;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            min-width: 180px;
+            z-index: 1;
+        }
+        .dropdown-content a {
+            display: block;
+            padding: 10px 16px;
+            color: lightgray;
+        }
+        .dropdown-content a:hover {
+            background-color: #eee;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+
+
+        .buildown{
+            position: absolute;
+            top: 150px;
+            left: 60px;
+            font-size: xx-large;
+            font-weight: bolder;
+        }
+        .para{
+            position: absolute;
+            top: 240px;
+            left: 60px;
+        }
+        .hr1{
+            position: absolute;
+            top: 340px;
+            left: 60px;
+            width: 1140px;
+        }
+        .viewfind{
+            position: absolute;
+            top: 420px;
+            left: 0px;
+            border: 1px solid black;
+        }
+        .viewpsc{
+            position: absolute;
+            top: -40px;
+            left: 60px;
+            width: 350px;
+            height: 50px;
+        }
+        .viewpsc a{
+            text-decoration: none;
+            color: black;
+        }
+        .viewpsc a:hover{
+            text-decoration: underline;
+            color: black;
+        }
+        .nearretailer{
+            position: absolute;
+            top: 00px;
+            left: 60px;
+            width: 350px;
+            height: 50px;
+        }
+        .nearretailer a{
+            text-decoration: none;
+            color: black;
+        }
+        .nearretailer a:hover{
+            text-decoration: underline;
+            color: black;
+        }
+        .rangerover{
+            position: absolute;
+            top: 560px;
+            left: 60px;
+            font-size: xx-large;
+            font-weight: bolder;
+        }
+        .rover{
+            position: absolute;
+            display: flex;
+            top: 660px;
+            left: 60px;
+            width: 1140px;
+            height: 500px;
+        }
+        .rr{
+            position: absolute;
+            top: 20px;
+            left: 0px;
+        }
+        .rr button{
+            width: 210px;
+            height: 50px;
+            background: black;
+            color: white;
+        }
+        a{
+            color: white;
+        }
+        .rr button a:hover{
+            border: 1px solid black;
+            background: white;
+            color: black;
+            text-decoration: underline;
+            transition: 2s ease;
+        }
+        .rr button:hover{
+            border: 1px solid black;
+            background: white;
+            color: black;
+            text-decoration: underline;
+        }
+        .rrsport{
+            position: absolute;
+            top: 20px;
+            left: 290px;
+        }
+        .rrsport button{
+            width: 210px;
+            height: 50px;
+            background: black;
+            color: white;
+        }
+        a{
+            color: white;
+        }
+        .rrsport button a:hover{
+            border: 1px solid black;
+            background: white;
+            color: black;
+            text-decoration: underline;
+        }
+        .rrsport button:hover{
+            border: 1px solid black;
+            background: white;
+            color: black;
+            text-decoration: underline;
+        }
+        .rrvelar{
+            position: absolute;
+            top: 20px;
+            left: 590px;
+        }
+        .rrvelar button{
+            width: 210px;
+            height: 50px;
+            background: black;
+            color: white;
+        }
+        a{
+            color: white;
+        }
+        .rrvelar button a:hover{
+            border: 1px solid black;
+            background: white;
+            color: black;
+            text-decoration: underline;
+            transition: 2s ease;
+        }
+        .rrvelar button:hover{
+            border: 1px solid black;
+            background: white;
+            color: black;
+            text-decoration: underline;
+        }
+        .rrevoque{
+            position: absolute;
+            top: 20px;
+            left: 890px;
+        }
+        .rrevoque button{
+            width: 210px;
+            height: 50px;
+            background: black;
+            color: white;
+        }
+        a{
+            color: white;
+        }
+        .rrevoque button a:hover{
+            border: 1px solid black;
+            background: white;
+            color: black;
+            text-decoration: underline;
+            transition: 2s ease;
+        }
+        .rrevoque button:hover{
+            border: 1px solid black;
+            background: white;
+            color: black;
+            text-decoration: underline;
+        }
+        .anc{
+            position: absolute;
+            top: 380px;
+            color: black;
+            text-decoration: none;
+        }
+        .anc:hover{
+            border-bottom: 1px solid  black;
+        }
+        .fourbox{
+            position: absolute;
+            top: 250px;
+            left: 0px;
+        }
+        .box1{
+            position: absolute;
+            top: 1000px;
+            left: 60px;
+            width: 260px;
+            font-weight: bold;
+            font-size: larger;
+        }
+        .box11{
+            position: absolute;
+            top: 1060px;
+            left: 60px;
+            width: 260px;
+        }
+        .box2{
+            position: absolute;
+            top: 1000px;
+            left: 350px;
+            width: 260px;
+            font-weight: bold;
+            font-size: larger;
+        }
+        .box21{
+            position: absolute;
+            top: 1060px;
+            left: 350px;
+            width: 260px;
+        }
+        .box3{
+            position: absolute;
+            top: 1000px;
+            left: 650px;
+            width: 260px;
+            font-weight: bold;
+            font-size: larger;
+        }
+        .box31{
+            position: absolute;
+            top: 1060px;
+            left: 650px;
+            width: 260px;
+        }
+        .box4{
+            position: absolute;
+            top: 1000px;
+            left: 950px;
+            width: 260px;
+            font-weight: bold;
+            font-size: larger;
+        }
+        .box41{
+            position: absolute;
+            top: 1060px;
+            left: 950px;
+            width: 260px;
+        }
+
+
+
+
+        .graybox{
+            position: absolute;
+            top: 1600px;
+            width: 1260px;
+            height: 251px;
+            background-color: whitesmoke;
+        }
+        .viewoffers{
+            position: absolute;
+            top: 60px;
+            left: 100px;
+            width: 220px;
+            height: 270px;
+        }
+        .viewoffers a{
+            color: black;
+            text-decoration: none;
+        }
+        .viewoffers a:hover{
+            text-decoration: underline;
+        }
+        .offers{
+            position: absolute;
+            top: 100px;
+            left: 100px;
+            width: 220px;
+            height: 170px;
+        }
+        .hr2{
+            position: absolute;
+            left: 340px;
+            height: 250px;
+            border: 1px solid  gray;
+        }
+        .contactus{
+            position: absolute;
+            top: 60px;
+            left: 390px;
+            width: 220px;
+            height: 270px;
+        }
+        .contactus a{
+            color: black;
+            text-decoration: none;
+        }
+        .contactus a:hover{
+            text-decoration: underline;
+        }
+        .us1{
+            position: absolute;
+            top: 100px;
+            left: 390px;
+            width: 220px;
+            height: 170px;
+        }
+        .hr3{
+            position: absolute;
+            left: 630px;
+            height: 250px;
+            border: 1px solid  gray;
+        }
+        .keepinformed{
+            position: absolute;
+            top: 60px;
+            left: 670px;
+            width: 220px;
+            height: 270px;
+        }
+        .keepinformed a{
+            color: black;
+            text-decoration: none;
+        }
+        .keepinformed a:hover{
+            text-decoration: underline;
+        }
+        .informed{
+            position: absolute;
+            top: 100px;
+            left: 670px;
+            width: 220px;
+            height: 170px;
+        }
+        .hr4{
+            position: absolute;
+            left: 910px;
+            height: 250px;
+            border: 1px solid  gray;
+        }
+        .retaillocation{
+            position: absolute;
+            top: 60px;
+            left: 960px;
+            width: 220px;
+            height: 270px;
+        }
+        .retaillocation a{
+            color: black;
+            text-decoration: none;
+        }
+        .retaillocation a:hover{
+            text-decoration: underline;
+        }
+        .location{
+            position: absolute;
+            top: 100px;
+            left: 960px;
+            width: 220px;
+            height: 170px;
+        }
+        
+
+
+
+        .vehicles{
+            position: absolute;
+            top: 2000px;
+            left: 40px;
+            font-size: larger;
+            font-weight: bold;
+        }
+        .veh{
+            position: absolute;
+            top: 2040px;
+            left: 40px;
+            color: black;
+        }
+        .veh a{
+            color: black;
+            text-decoration: none;
+            line-height: 30px;
+        }
+        .veh a:hover{
+            text-decoration: underline;
+        }
+        .ownership{
+            position: absolute;
+            top: 2000px;
+            left: 340px;
+            font-size: larger;
+            font-weight: bold;
+        }
+        .own{
+            position: absolute;
+            top: 2040px;
+            left: 340px;
+        }
+        .own a{
+            color: black;
+            text-decoration: none;
+            line-height: 30px;
+        }
+        .own a:hover{
+            text-decoration: underline;
+        }
+        .aboutus{
+            position: absolute;
+            top: 2150px;
+            left: 340px;
+            font-size: larger;
+            font-weight: bold;
+        }
+        .us2{
+            position: absolute;
+            top: 2190px;
+            left: 340px;
+            height: 150px;
+        }
+        .us2 a{
+            color: black;
+            text-decoration: none;
+            line-height: 30px;
+        }
+        .us2 a:hover{
+            text-decoration: underline;
+        }
+        .ourbrands{
+            position: absolute;
+            top: 2000px;
+            left: 640px;
+            font-size: larger;
+            font-weight: bold;
+        }
+        .brands{
+            position: absolute;
+            top: 2040px;
+            left: 640px;
+        }
+        .brands a{
+            color: black;
+            text-decoration: none;
+            line-height: 30px;
+        }
+        .brands a:hover{
+            text-decoration: underline;
+        }
+        .socialnetwork{
+            position: absolute;
+            top: 2000px;
+            left: 940px;
+            line-height: 30px;
+        }
+        .socialnetwork a{
+            color: black;
+            text-decoration: none;
+        }
+        .socialnetwork a:hover{
+            text-decoration: underline;
+        }
+        button{
+            position: absolute;
+            top: 85px;
+            left: 1189px;
+            color: black;
+        }
+        button a{
+            text-decoration: none;
+            color: #000;
+        }

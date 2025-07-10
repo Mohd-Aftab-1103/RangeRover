@@ -1,0 +1,314 @@
+body {
+            margin: 0;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        .navbar {
+            position: fixed;
+            display: flex;
+            top: -1px;
+            justify-content: space-between;
+            align-items: center;
+            padding: 16px 26px;
+            background-color: whitesmoke;
+            border-bottom: 1px solid lightgray;
+            max-height: 800px;
+            z-index: 100;
+            width: 96%;
+            margin: 0px;
+        }
+        .menu, .right-menu {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+        .menu a, .right-menu a {
+            text-decoration: none;
+            color: #000;
+        }
+        .logo {
+            font-size: 22px;
+            font-weight: bold;
+        }
+        .dropdown {
+            position: relative;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background: #f9f9f9;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            min-width: 180px;
+            z-index: 1;
+        }
+        .dropdown-content a {
+            display: block;
+            padding: 10px 16px;
+            color: lightgray;
+        }
+        .dropdown-content a:hover {
+            background-color: #eee;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+
+
+
+
+
+        
+
+        .graybox{
+            position: absolute;
+            top: 1600px;
+            width: 1260px;
+            height: 251px;
+            background-color: whitesmoke;
+        }
+        .viewoffers{
+            position: absolute;
+            top: 60px;
+            left: 100px;
+            width: 220px;
+            height: 270px;
+        }
+        .viewoffers a{
+            color: black;
+            text-decoration: none;
+        }
+        .viewoffers a:hover{
+            text-decoration: underline;
+        }
+        .offers{
+            position: absolute;
+            top: 100px;
+            left: 100px;
+            width: 220px;
+            height: 170px;
+        }
+        .hr2{
+            position: absolute;
+            left: 340px;
+            height: 250px;
+            border: 1px solid  gray;
+        }
+        .contactus{
+            position: absolute;
+            top: 60px;
+            left: 390px;
+            width: 220px;
+            height: 270px;
+        }
+        .contactus a{
+            color: black;
+            text-decoration: none;
+        }
+        .contactus a:hover{
+            text-decoration: underline;
+        }
+        .us1{
+            position: absolute;
+            top: 100px;
+            left: 390px;
+            width: 220px;
+            height: 170px;
+        }
+        .hr3{
+            position: absolute;
+            left: 630px;
+            height: 250px;
+            border: 1px solid  gray;
+        }
+        .keepinformed{
+            position: absolute;
+            top: 60px;
+            left: 670px;
+            width: 220px;
+            height: 270px;
+        }
+        .keepinformed a{
+            color: black;
+            text-decoration: none;
+        }
+        .keepinformed a:hover{
+            text-decoration: underline;
+        }
+        .informed{
+            position: absolute;
+            top: 100px;
+            left: 670px;
+            width: 220px;
+            height: 170px;
+        }
+        .hr4{
+            position: absolute;
+            left: 910px;
+            height: 250px;
+            border: 1px solid  gray;
+        }
+        .retaillocation{
+            position: absolute;
+            top: 60px;
+            left: 960px;
+            width: 220px;
+            height: 270px;
+        }
+        .retaillocation a{
+            color: black;
+            text-decoration: none;
+        }
+        .retaillocation a:hover{
+            text-decoration: underline;
+        }
+        .location{
+            position: absolute;
+            top: 100px;
+            left: 960px;
+            width: 220px;
+            height: 170px;
+        }
+
+
+
+
+        .finance{
+            position: absolute;
+            top: 100px;
+            left: 100px;
+        }
+        .vehicle{
+            position: absolute;
+            top: 100px;
+            left: 100px;
+        }
+        .rr{
+            position: absolute;
+            top: 2000px;
+        }
+        .rrsport{
+            position: absolute;
+            top: 2000px;
+        }
+        .rrvelar{
+            position: absolute;
+            top: 2000px;
+        }
+        .rrevoque{
+            position: absolute;
+            top: 2000px;
+        }
+        .rrdef{
+            position: absolute;
+            top: 2000px;
+        }
+        .rrdsport{
+            position: absolute;
+            top: 2000px;
+        }
+        .rrdiscovery{
+            position: absolute;
+            top: 2000px;
+        }
+
+
+
+
+        .vehicles{
+            position: absolute;
+            top: 850px;
+            left: 60px;
+            font-weight: bold;
+        }
+        .veh{
+            position: absolute;
+            top: 890px;
+            left: 60px;
+            line-height: 25px;
+        }
+        .veh a{
+            color: black;
+            text-decoration: none;
+        }
+        .veh a:hover{
+            text-decoration: underline;
+        }
+        .ownership{
+            position: absolute;
+            top: 850px;
+            left: 340px;
+            font-weight: bold;
+        }
+        .ship{
+            position: absolute;
+            top: 890px;
+            left: 340px;
+            line-height: 25px;
+        }
+        .ship a{
+            color: black;
+            text-decoration: none;
+        }
+        .ship a:hover{
+            text-decoration: underline;
+        }
+        .experience{
+            position: absolute;
+            top: 850px;
+            left: 640px;
+            font-weight: bold;
+        }
+        .exper{
+            position: absolute;
+            top: 890px;
+            left: 640px;
+            line-height: 25px;
+        }
+        .exper a{
+            color: black;
+            text-decoration: none;
+        }
+        .exper a:hover{
+            text-decoration: underline;
+        }
+        .aboutus{
+            position: absolute;
+            top: 1000px;
+            left: 640px;
+            font-weight: bold;
+        }
+        .us{
+            position: absolute;
+            top: 1040px;
+            left: 640px;
+            line-height: 25px;
+        }
+        .us a{
+            color: black;
+            text-decoration: none;
+        }
+        .us a:hover{
+            text-decoration: underline;
+        }
+
+        .logo{
+            position: absolute;
+            top: 850px;
+            left: 960px;
+        }
+        .logo1{
+            position: absolute;
+            top: 900px;
+            left: 960px;
+            line-height: 50px;
+            height: 500px;
+        }
+        .logo1 a{
+            color: black;
+            text-decoration: none;
+        }
+        .logo1 a:hover{
+            text-decoration: underline;
+        }

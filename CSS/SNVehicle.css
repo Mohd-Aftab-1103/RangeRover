@@ -1,0 +1,175 @@
+body {
+            margin: 0;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        .navbar {
+            position: fixed;
+            display: flex;
+            top: -1px;
+            justify-content: space-between;
+            align-items: center;
+            padding: 16px 26px;
+            background-color: whitesmoke;
+            border-bottom: 1px solid lightgray;
+            max-height: 800px;
+            z-index: 100;
+            width: 96%;
+            margin: 0px;
+        }
+        .menu, .right-menu {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+        .menu a, .right-menu a {
+            text-decoration: none;
+            color: #000;
+        }
+        .logo {
+            font-size: 22px;
+            font-weight: bold;
+        }
+        .dropdown {
+            position: relative;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background: #f9f9f9;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            min-width: 180px;
+            z-index: 1;
+        }
+        .dropdown-content a {
+            display: block;
+            padding: 10px 16px;
+            color: lightgray;
+        }
+        .dropdown-content a:hover {
+            background-color: #eee;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .logo a{
+            color: black;
+            text-decoration: none;
+        }
+
+
+
+
+        .vl{
+            border-left: 2px solid lightgray;
+            height: 320px;
+            position: absolute;
+            left: 370px;
+            top: 100px;
+        }
+
+
+
+
+        
+        .sh{
+            position: absolute;
+            top: 180px;
+            left: 30px;
+            border: 1px solid black;
+        }
+        .vehicle, .offers, .access, .subs{
+            font-weight: bolder;
+            font-size: x-large;
+        }
+        .shop .vehicle a{
+            color: black;
+        }
+        .shop1{
+            position: absolute;
+            top: 130px;
+            left: 70px;
+            font-size: larger;
+            width: 300px;
+        }
+        .shop{
+            position: absolute;
+            top: 175px;
+            left: 70px;
+            width: 300px;
+        }
+        .shop a{
+            text-decoration: none;
+            color: gray;
+        }
+        .shop .vehicle a:hover{
+            text-decoration: underline;
+            color: black;
+        }
+        .shop .offers a:hover{
+            text-decoration: underline;
+            color: black;
+        }
+        .shop .access a:hover{
+            text-decoration: underline;
+            color: black;
+        }
+        .shop .subs a:hover{
+            text-decoration: underline;
+            color: black;
+        }
+
+
+        button{
+            position: absolute;
+            top: 85px;
+            left: 1189px;
+            color: black;
+        }
+        button a{
+            text-decoration: none;
+            color: #000;
+        }
+
+
+        .newveh{
+            position: absolute;
+            top: 130px;
+            left: 400px;
+            width: 300px;
+        }
+        .new{
+            position: absolute;
+            top: 175px;
+            left: 400px;
+            width: 300px;
+            font-size: small;
+        }
+        .new a{
+            text-decoration: none;
+            color:#000
+        }
+        .new a:hover{
+            text-decoration: underline;
+        }
+        .approved{
+            position: absolute;
+            top: 130px;
+            left: 620px;
+            width: 300px;
+        }
+        .app{
+            position: absolute;
+            top: 175px;
+            left: 620px;
+            width: 300px;
+            font-size: small;
+        }
+        .app a{
+            text-decoration: none;
+            color:#000
+        }
+        .app a:hover{
+            text-decoration: underline;
+        }
